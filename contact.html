@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+   </div>
+    <div class="wrapper">
+        <div class="title">
+           Contact Us
+        </div>
+        <form action="#">
+           <div class="field">
+              <input type="text" required>
+              <label>Your Name</label>
+           </div>
+           <div class="field">
+              <input type="text" required>
+              <label>Your Mail</label>
+           </div>
+           <div class="field">
+            <input type="text" required>
+            <label>Your Message</label>
+           </div>
+           
+           <div class="field">
+            <!-----<input type="submit" value="submit">--->
+             <button type="submit" class="btn" onclick="openpPopup">Submit</button>
+             <div class="popup" id="popup">
+               <img src="tick.png" alt="">
+               <h2>Thank You!</h2>
+               <p>Your details has been successfully submitted. Thanks!</p>
+               <button type="button" onclick="closePopup">Ok</button>
+               <a onclick="openContactPopup()">Contact Us</a>
+             </div>
+            </div>
+           
+        </form>
+     </div>
+    
+<script>
+    function openContactPopup() {
+            // Open a pop-up window with a contact form
+            var contactWindow = window.open('', 'Contact Us', 'width=400,height=400');
+            
+            
+            contactWindow.document.write('<html><head><title>Contact Us</title></head><body>');
+            contactWindow.document.write('<h2>Contact Us</h2>');
+            contactWindow.document.write('<form>');
+            contactWindow.document.write('<label for="name">Name:</label>');
+            contactWindow.document.write('<input type="text" id="name" name="name" required><br>');
+            contactWindow.document.write('<label for="email">Email:</label>');
+            contactWindow.document.write('<input type="email" id="email" name="email" required><br>');
+            contactWindow.document.write('<button type="submit">Submit</button>');
+            contactWindow.document.write('</form>');
+            contactWindow.document.write('</body></html>');
+
+            
+            contactWindow.document.close();
+        }
+</script>
+    
+     
+</body>
+</html>

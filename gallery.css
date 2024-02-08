@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.jaipur{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    color: magenta;
+    font-size: 80px;
+    background-color: antiquewhite;
+}
+
+.delhi{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    color: maroon;
+    font-size: 80px;
+    background-color: blueviolet;
+}
+.agra{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    color: mediumspringgreen;
+    font-size: 80px;
+    background-color: darksalmon;
+}
+.kerala{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    color: indigo;
+    font-size: 80px;
+    background-color: skyblue;
+}
+.mumbai{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    color: crimson;
+    font-size: 80px;
+   background-color: aqua;
+}
+.ayodhya{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    color: burlywood;
+    font-size: 80px;
+   background-color: deeppink;
+}
+.para{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
